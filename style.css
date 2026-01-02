@@ -1,0 +1,28 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #e0f7fa;
+  margin: 0;
+}
+
+.screen { display: none; }
+.active { display: block; }
+
+#gameArea {
+  position: relative;
+  height: 400px;
+  background: linear-gradient(#87ceeb, #ffffff);
+  overflow: hidden;
+  margin: 10px;
+  border: 2px solid #333;
+}
+
+.balloon {
+  width: 60px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -100px;
+  cursor: pointer;
+}
